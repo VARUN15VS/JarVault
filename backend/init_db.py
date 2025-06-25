@@ -1,7 +1,7 @@
 # init_db.py
 from backend import create_app
 from backend.extension import db
-from backend.model import User  # also import other models when you add them
+from backend.model import User
 
 app = create_app()
 

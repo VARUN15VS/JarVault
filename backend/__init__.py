@@ -10,6 +10,6 @@ def create_app():
     # Binding extensions to app
     db.init_app(app)
     jwt.init_app(app)
-    mail.init_app(mail)
+    mail.init_app(app)
 
     return app
